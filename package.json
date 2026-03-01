@@ -1,0 +1,39 @@
+{
+  "name": "doom-wen-discord-bot",
+  "version": "1.0.0",
+  "description": "Multi-server Discord bot with ticketing and commission workflows",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "dev:watch": "nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ticketing",
+    "commission"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "discord-html-transcripts": "^3.2.0",
+    "mongoose": "^8.0.4",
+    "dotenv": "^16.3.1",
+    "simple-git": "^3.22.0",
+    "node-fetch": "^2.7.0",
+    "uuid": "^9.0.1",
+    "archiver": "^7.0.1",
+    "googleapis": "^171.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/node-fetch": "^2.6.11",
+    "@types/uuid": "^9.0.7",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.0.2"
+  }
+}
